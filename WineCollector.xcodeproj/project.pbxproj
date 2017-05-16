@@ -13,6 +13,7 @@
 		043D54141ECB64CA0011C95D /* WineCollector.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 043D54121ECB64CA0011C95D /* WineCollector.xcdatamodeld */; };
 		043D54161ECB64CA0011C95D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 043D54151ECB64CA0011C95D /* Assets.xcassets */; };
 		043D54191ECB64CA0011C95D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 043D54171ECB64CA0011C95D /* LaunchScreen.storyboard */; };
+		043D54231ECB6ADF0011C95D /* WineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043D54221ECB6ADF0011C95D /* WineViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		043D54151ECB64CA0011C95D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		043D54181ECB64CA0011C95D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		043D541A1ECB64CA0011C95D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		043D54221ECB6ADF0011C95D /* WineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WineViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				043D540B1ECB64CA0011C95D /* AppDelegate.swift */,
 				043D540D1ECB64CA0011C95D /* ViewController.swift */,
+				043D54221ECB6ADF0011C95D /* WineViewController.swift */,
 				043D540F1ECB64CA0011C95D /* Main.storyboard */,
 				043D54151ECB64CA0011C95D /* Assets.xcassets */,
 				043D54171ECB64CA0011C95D /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				043D54141ECB64CA0011C95D /* WineCollector.xcdatamodeld in Sources */,
+				043D54231ECB6ADF0011C95D /* WineViewController.swift in Sources */,
 				043D540E1ECB64CA0011C95D /* ViewController.swift in Sources */,
 				043D540C1ECB64CA0011C95D /* AppDelegate.swift in Sources */,
 			);
@@ -305,6 +309,7 @@
 				043D541F1ECB64CA0011C95D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
